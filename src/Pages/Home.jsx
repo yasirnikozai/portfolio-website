@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -22,14 +23,13 @@ export default function Home() {
         </p>
 
         {/* Call-to-Action Button */}
-        <motion.a
-          href="/projects"
+        <motion.div
           className="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-blue-600 transition duration-300"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
-          View My Work
-        </motion.a>
+          <Link to="/projects">View My Work</Link>
+        </motion.div>
       </motion.div>
     </div>
   );
