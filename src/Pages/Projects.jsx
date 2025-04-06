@@ -14,6 +14,14 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+  {
+    name: "The Wild Osis Hotel",
+    description:
+      "The Wild Oasis is a modern and intuitive hotel management web application designed to simplify daily operations for hotel staff and managers. ",
+    link: "https://the-wild-osis-hotel-app.vercel.app/dashboard",
+    image:
+      "https://images.unsplash.com/photo-1732347210962-c37cb67aabb2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
 ];
 
 export default function Projects() {
