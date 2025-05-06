@@ -22,6 +22,14 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1732347210962-c37cb67aabb2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+  {
+    name: "React Quiz App",
+    description:
+      "A simple and interactive quiz application built with React. This project demonstrates state management using useReducer and data fetching with useEffect.",
+    link: "https://react-quiz-app-eta-ochre.vercel.app/",
+    image:
+      "https://images.unsplash.com/photo-1649749500073-cf03ca086650?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
 ];
 
 export default function Projects() {
